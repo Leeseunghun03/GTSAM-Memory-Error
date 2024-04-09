@@ -11,7 +11,7 @@ Ex) double free or corruption (out)
 
 ## GTSAM Install & Uninstall
 
-필자는 처음 GTSAM 라이브러리를 설치할 때 다음은 명령어로 설치했다.
+필자는 처음 GTSAM 라이브러리를 설치할 때 다음과 같은 명령어로 설치했다.
 
     sudo apt install ros-noetic-gtsam
     sudo apt install ros-noetic-gtsam-dbgsym
