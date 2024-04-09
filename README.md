@@ -26,6 +26,8 @@ Ex) double free or corruption (out)
     cd ~/Downloads/ && unzip gtsam.zip -d ~/Downloads/
     cd ~/Downloads/gtsam-4.0.0-alpha2/
     mkdir build && cd build
+    cmake -DGSTAM_BUILD_WITH_MARCH_NATIVE=OFF -DGSTAM_USE_SYSTEM_EIGEN=ON ..
+    sudo make install
     
 
 
