@@ -15,6 +15,17 @@ Ex) double free or corruption (out)
 
     sudo apt install ros-noetic-gtsam
     sudo apt install ros-noetic-gtsam-dbgsym
+
+이후 double free or corruption (out) 과 같은 Memory 문제가 발생했고 아래 코드로 GTSAM을 제거해주었다.
+
+    sudo apt remove --purge ros-noetic-gtsam
+
+제거 후 아래 코드를 통해 소스로 직접 GTSAM을 설치해주었다.
+
+    wget -O ~/Downloads/gtsam.zip https://github.com/borglab/gtsam/archive/4.0.0-alpha2.zip
+    cd ~/Downloads/ && unzip gtsam.zip -d ~/Downloads/
+    cd ~/Downloads/gtsam-4.0.0-alpha2/
+    mkdir build && cd build
     
 
 
