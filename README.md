@@ -39,7 +39,7 @@ Ex) double free or corruption (out)
 
 실행시키고자 하는 코드를 실행해보면 memory 오류가 생기지 않는 것을 확인할 수 있다.
 
-+ GTSAM의 CMakeLists에 들어가서
+추신) GTSAM의 CMakeLists에 들어가서
 
     option(GTSAM_USE_SYSTEM_EIGEN "Find and use system-installed Eigen. If 'off', use the one bundled with GTSAM" OFF)
 
