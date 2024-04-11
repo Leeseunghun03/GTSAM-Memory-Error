@@ -26,6 +26,12 @@ Ex) double free or corruption (out)
 
 소스를 통해 설치한 경우 삭제할 필요 없이 다시 소스로 설치하는 과정을 진행하면 이전 버전보다 우선되기 때문에 폴더만 삭제해주면 된다.
 
+gtsam의 build 디렉토리로 이동하여 
+
+    xargs rm -rf < install_manifest.txt
+
+명령어를 사용해도 무관하다.
+
 ## GTSAM Install & Cmake Setting
 
 귀찮더라도 소스를 통해 설치하는 것을 추천한다. (원하는 버전을 맞출 수 있고 쉽게 CMAKE 수정이 가능하기 때문이다.)
